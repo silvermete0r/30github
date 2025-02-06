@@ -18,6 +18,7 @@
 
 ## Table of Contents
 - [Day 0: Intro to Kolmogorov Arnold Networks](#day-0-intro-to-kolmogorov-arnold-networks)
+- [References](#references)
 
 ## Day 0: Intro to Kolmogorov Arnold Networks
 
@@ -37,7 +38,7 @@ KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines
 *🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
 
 
-# References
+## References
 
 1. [Kolmogorov-Arnold representation theorem](https://en.wikipedia.org/wiki/Kolmogorov-Arnold_representation_theorem)
 2. [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)
