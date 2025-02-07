@@ -42,7 +42,7 @@ KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines
 
 The PyKAN library provides a Python implementation of the KAN algorithm, allowing users to create, train, and evaluate KAN models. The library simplifies the process of working with KANs, providing a user-friendly interface for researchers and developers. PyKAN enables users to harness the power of KANs for various applications, from data fitting to machine learning tasks.
 
-My implementation of PyKAN model for ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks\titanic-pykan-predictions.ipynb](notebooks\titanic-pykan-predictions.ipynb)
+My implementation of PyKAN model for ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
 
 
 *🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
