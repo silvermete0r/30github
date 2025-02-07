@@ -1,4 +1,4 @@
-![KAN-30-Days-Challenge-Header](https://sun9-52.userapi.com/impg/meyDkrQTZuDYjaQZHlSFsYx9TKbZ6Mq4W7mCPg/2tEA4Boh36Q.jpg?size=1405x433&quality=95&sign=7b73ae4421d44d34b0e32492a4735cf1&type=album)
+![KAN-30-Days-Challenge-Header](img/kan-research-30-days-challenge-header.png)
 
 # 30 Days of Kolmogorov Arnold Networks Research
 
@@ -30,9 +30,19 @@ Kolmogorov-Arnold Networks (KANs) are a recent innovation in neural network arch
 
 The Kolmogorov-Arnold theorem, introduced by Andrey Kolmogorov in 1957, revolutionized the representation of continuous multivariable functions by breaking them down into simpler univariate functions. Vladimir Arnold further validated and extended Kolmogorov's work in 1958, proving its effectiveness in representing higher-dimensional functions1. Their work provided new methods for machine learning, data fitting, and solving partial differential equations1.
 
+### Mathematical Formulation
+
+![KART: Mathematical Formulation](img/math-formulation-kan.png)
+
 ### How KANs Work
 
 KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines](https://en.wikipedia.org/wiki/B-spline) to create a dynamic model. The KAR theorem decomposes complex functions into simpler ones, and KANs apply this principle to each edge within the network, making each edge a learnable B-spline activation function. During training, each B-spline adjusts its control points through backpropagation, refining its approach to data with each iteration and continuously improving accuracy and efficiency.
+
+### PyKAN Library Python
+
+The PyKAN library provides a Python implementation of the KAN algorithm, allowing users to create, train, and evaluate KAN models. The library simplifies the process of working with KANs, providing a user-friendly interface for researchers and developers. PyKAN enables users to harness the power of KANs for various applications, from data fitting to machine learning tasks.
+
+My implementation of PyKAN model for ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks\titanic-pykan-predictions.ipynb](notebooks\titanic-pykan-predictions.ipynb)
 
 
 *🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
@@ -42,3 +52,4 @@ KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines
 
 1. [Kolmogorov-Arnold representation theorem](https://en.wikipedia.org/wiki/Kolmogorov-Arnold_representation_theorem)
 2. [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)
+3. [PyKAN Library Python](https://github.com/KindXiaoming/pykan)
