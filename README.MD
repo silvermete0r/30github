@@ -42,11 +42,59 @@ KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines
 
 The PyKAN library provides a Python implementation of the KAN algorithm, allowing users to create, train, and evaluate KAN models. The library simplifies the process of working with KANs, providing a user-friendly interface for researchers and developers. PyKAN enables users to harness the power of KANs for various applications, from data fitting to machine learning tasks.
 
-My implementation of PyKAN model for ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
+My implementation of PyKAN model for Binary Classification Problem: ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
 
 
 *🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
 
+## Day 1: Implementing KAN in Python
+
+[PyKAN Library Python](https://github.com/KindXiaoming/pykan)
+
+Today, we'll explore how to implement a KAN model in Python using the PyKAN library for the Housing Prices Prediction Competition on Kaggle.
+
+**Installation:**
+
+```bash
+pip install pykan
+```
+
+**Initializing a KAN:**
+
+```python
+from kan import *
+
+model = KAN(width=[X_train.shape[1], 20, 10, 1], grid=3, k=3, seed=42, device='cpu')
+```
+
+**Explanation of parameters:**
+
+* `width=[X_train.shape[1], 20, 10, 1]`: Defines a network with input features, two hidden layers (20 and 10 neurons), and one output.
+* `grid=3`: Sets the number of grid points for piecewise function representation.
+* `k=3`: Defines the order of the spline function.
+* `seed=42`: Ensures reproducibility.
+* `device='cpu'`: Uses CPU for training (set 'cuda' if using a GPU).
+
+**Training the KAN:**
+
+```python
+train_data = {
+    'train_input': torch.tensor(X_train, dtype=torch.float64),
+    'train_label': torch.tensor(y_train, dtype=torch.float64).view(-1, 1),
+    'test_input': torch.tensor(X_val, dtype=torch.float64),
+    'test_label': torch.tensor(y_val, dtype=torch.float64).view(-1, 1)
+}
+
+model.fit(train_data, opt="LBFGS", steps=100, lamb=0.001)
+```
+
+**Explanation of training parameters:**
+
+* `opt="LBFGS"`: Uses the Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) optimizer. Why? It's efficient for small datasets.
+* `steps=100`: Sets the number of optimization steps.
+* `lamb=0.001`: Defines the regularization parameter.
+
+To be continued...
 
 ## References
 
