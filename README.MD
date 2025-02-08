@@ -42,7 +42,7 @@ KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines
 
 The PyKAN library provides a Python implementation of the KAN algorithm, allowing users to create, train, and evaluate KAN models. The library simplifies the process of working with KANs, providing a user-friendly interface for researchers and developers. PyKAN enables users to harness the power of KANs for various applications, from data fitting to machine learning tasks.
 
-My implementation of PyKAN model for Binary Classification Problem: ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
+My implementation of PyKAN model for the Binary Classification Problem: ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
 
 
 *🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
@@ -53,13 +53,13 @@ My implementation of PyKAN model for Binary Classification Problem: ["Titanic - 
 
 Today, we'll explore how to implement a KAN model in Python using the PyKAN library for the Housing Prices Prediction Competition on Kaggle.
 
-**Installation:**
+**1.1. Installation:**
 
 ```bash
 pip install pykan
 ```
 
-**Initializing a KAN:**
+**1.2. Initializing a KAN:**
 
 ```python
 from kan import *
@@ -75,7 +75,7 @@ model = KAN(width=[X_train.shape[1], 20, 10, 1], grid=3, k=3, seed=42, device='c
 * `seed=42`: Ensures reproducibility.
 * `device='cpu'`: Uses CPU for training (set 'cuda' if using a GPU).
 
-**Training the KAN:**
+**1.3. Training the KAN:**
 
 ```python
 train_data = {
@@ -94,7 +94,59 @@ model.fit(train_data, opt="LBFGS", steps=100, lamb=0.001)
 * `steps=100`: Sets the number of optimization steps.
 * `lamb=0.001`: Defines the regularization parameter.
 
-To be continued...
+**1.4. Extracting Symbolic Formula**
+
+*A key advantage of KAN is that it allows us to obtain a symbolic representation of the trained model. We can either manually set functions or let PyKAN automatically discover symbolic expressions.*
+
+**1.4.1 Manual Mode**
+
+```python
+model.fix_symbolic(0, 0, 0, 'sin')  # First layer, first neuron, first function -> sin
+model.fix_symbolic(0, 1, 0, 'x^2')  # First layer, second neuron, first function -> x^2
+model.fix_symbolic(1, 0, 0, 'exp')  # Second layer, first neuron, first function -> exp
+```
+
+**1.4.2 Automatic Mode**
+
+***PyKAN automatically choose the best-fitting symbolic functions from a predefined library***
+
+```python
+library = ['x', 'x^2', 'x^3', 'x^4', 'exp', 'log', 'sqrt', 'tanh', 'sin', 'abs']
+model.auto_symbolic(lib=library)
+```
+
+**1.4.3. Printing Final Mathematical Representation of KAN model**
+
+```python
+from kan.utils import ex_round
+final_formula = ex_round(model.symbolic_formula()[0][0], 4)
+print("Final Model Formula:", final_formula)
+```
+
+**1.5. Visualizing the Trained KAN Model**
+
+*Visualizing math formula as a network graph.*
+
+```python
+model.plot()
+```
+
+**1.6. Making Predictions**
+
+```python
+test_preds = model(torch.tensor(test_data, dtype=torch.float64)).cpu().detach().numpy()
+```
+
+**1.7. Predictions Submission**
+
+```python
+submission = pd.DataFrame({'Id': test_ids, 'SalePrice': test_preds.flatten()})
+submission.to_csv('submission.csv', index=False)
+```
+
+*KAN offers interpretable models with a strong mathematical foundation, making it a unique alternative to traditional deep learning architectures. Tomorrow, we'll explore hyperparameter tuning and advanced visualization techniques. 🚀*
+
+My implementation of PyKAN model for the Regression Problem: ["Housing Prices"](https://www.kaggle.com/competitions/home-data-for-ml-course) Kaggle Competition: [notebooks/pykan-housing-prices-prediction.ipynb](notebooks/pykan-housing-prices-prediction.ipynb)
 
 ## References
 
