@@ -38,16 +38,25 @@ The Kolmogorov-Arnold theorem, introduced by Andrey Kolmogorov in 1957, revoluti
 
 KANs use the Kolmogorov-Arnold Representation (KAR) theorem alongside [B-splines](https://en.wikipedia.org/wiki/B-spline) to create a dynamic model. The KAR theorem decomposes complex functions into simpler ones, and KANs apply this principle to each edge within the network, making each edge a learnable B-spline activation function. During training, each B-spline adjusts its control points through backpropagation, refining its approach to data with each iteration and continuously improving accuracy and efficiency.
 
+### How B-Splines Work
+
+B-splines are piecewise polynomial functions that are smooth at the joints, making them ideal for approximating complex functions. They are defined by a set of control points that determine the shape of the curve. By adjusting these control points, the B-spline can adapt to various data patterns, providing a flexible and powerful tool for function approximation.
+
+### Comparison with Traditional Neural Networks (MLPs)
+
+![KAN vs. MLP in Original Paper](img/kan_mlp_comparison_table_orig.png)
+
+*🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
+
+![KAN vs. MLP more fair comparison](img/kan_mlp_comparison_table_fair.png)
+
+*🔗 Source: [(Arxiv) KAN or MLP: A Farier Comparison](https://arxiv.org/abs/2407.16674)*
+
 ### PyKAN Library Python
 
 The PyKAN library provides a Python implementation of the KAN algorithm, allowing users to create, train, and evaluate KAN models. The library simplifies the process of working with KANs, providing a user-friendly interface for researchers and developers. PyKAN enables users to harness the power of KANs for various applications, from data fitting to machine learning tasks.
 
-My implementation of PyKAN model for the Binary Classification Problem: ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
-
-
-*🔗 Source: [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)*
-
-## Day 1: Implementing KAN in Python
+## Day 1: Implementing KAN for Regression Problems in Python
 
 [PyKAN Library Python](https://github.com/KindXiaoming/pykan)
 
@@ -148,8 +157,18 @@ submission.to_csv('submission.csv', index=False)
 
 My implementation of PyKAN model for the Regression Problem: ["Housing Prices"](https://www.kaggle.com/competitions/home-data-for-ml-course) Kaggle Competition: [notebooks/pykan-housing-prices-prediction.ipynb](notebooks/pykan-housing-prices-prediction.ipynb)
 
+## Day 2: Implementing KAN for Classification Problems in Python
+
+Today, we'll explore how to implement a KAN model in Python using the PyKAN library for the Titanic Survival Prediction Competition on Kaggle.
+
+My implementation of PyKAN model for the Binary Classification Problem: ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
+
 ## References
 
 1. [Kolmogorov-Arnold representation theorem](https://en.wikipedia.org/wiki/Kolmogorov-Arnold_representation_theorem)
 2. [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)
 3. [PyKAN Library Python](https://github.com/KindXiaoming/pykan)
+4. [The Math Behind KAN – Kolmogorov-Arnold Networks](https://towardsdatascience.com/the-math-behind-kan-kolmogorov-arnold-networks-7c12a164ba95/)
+5. [(Arxiv) KAN or MLP: A Farier Comparison](https://arxiv.org/abs/2407.16674)
+6. [(Github) Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan)
+7. [(Datacamp Tutorial) Kolmogorov-Arnold Networks (KANs): A Guide With Implementation](https://www.datacamp.com/tutorial/kolmogorov-arnold-networks)
