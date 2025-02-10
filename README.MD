@@ -163,6 +163,20 @@ Today, we'll explore how to implement a KAN model in Python using the PyKAN libr
 
 My implementation of PyKAN model for the Binary Classification Problem: ["Titanic - Machine Learning from Disaster"](https://www.kaggle.com/competitions/titanic) Kaggle Competition: [notebooks/titanic-pykan-predictions.ipynb](notebooks/titanic-pykan-predictions.ipynb)
 
+## Day 3: Kolmogorov–Arnold-Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov–Arnold Networks
+
+Today, we'll explore how to implement a Kolmogorov–Arnold-Informed neural network (KAINN) for solving partial differential equations (PDEs) based on Kolmogorov–Arnold Networks.
+
+* The paper introduces the Kolmogorov–Arnold-Informed Neural Network (KINN), a physics‐informed deep learning framework that uses Kolmogorov–Arnold Networks (KANs) instead of conventional multilayer perceptrons (MLPs). KANs are noted for their improved interpretability and require fewer parameters than standard MLPs.
+* Unlike traditional approaches that rely on a single formulation, the framework considers various PDE formulations (strong form, energy form, inverse form). Although mathematically equivalent, these forms lead to different computational behaviors, and KINN is designed to effectively handle these variations.
+* Extensive numerical experiments—including multi-scale problems, singularities, stress concentration, nonlinear hyperelasticity, and heterogeneous materials—demonstrate that KINN achieves higher accuracy and faster convergence compared to traditional PINNs based on MLPs. An exception was noted in some complex geometry problems where performance gains were less pronounced.
+* The framework builds on the Kolmogorov–Arnold representation theorem, which provides a theoretical foundation for the KAN architecture, thereby justifying its efficiency and reliability in approximating solutions to PDEs.
+* The proposed method not only demonstrates significant improvements in solving forward and inverse PDE problems in computational solid mechanics but also comes with open-source code, ensuring that the results are reproducible and can serve as a valuable resource for further research in scientific computing.
+
+**Practice Link:** *[Example 6: Solving Partial Differential Equation (PDE)](https://kindxiaoming.github.io/pykan/Example/Example_6_PDE_interpretation.html)*
+
+**🔗 Source:** [Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
+
 ## References
 
 1. [Kolmogorov-Arnold representation theorem](https://en.wikipedia.org/wiki/Kolmogorov-Arnold_representation_theorem)
@@ -172,3 +186,4 @@ My implementation of PyKAN model for the Binary Classification Problem: ["Titani
 5. [(Arxiv) KAN or MLP: A Farier Comparison](https://arxiv.org/abs/2407.16674)
 6. [(Github) Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan)
 7. [(Datacamp Tutorial) Kolmogorov-Arnold Networks (KANs): A Guide With Implementation](https://www.datacamp.com/tutorial/kolmogorov-arnold-networks)
+8. [(Arxiv) Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
