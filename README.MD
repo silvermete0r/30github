@@ -177,6 +177,28 @@ Today, we'll explore how to implement a Kolmogorov–Arnold-Informed neural netw
 
 **🔗 Source:** [Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
 
+
+## Day 4: Trying KAN for Physics ~ Lagrangian Mechanics
+
+Today, we'll explore how to implement a KAN model in Python for solving physics problems, specifically in the domain of Lagrangian Mechanics.
+
+PyKAN can be used to approximate and simplify a complex physical formula like the Lagrangian Simple Pendulum Formula in physics. The goal is to express it in terms of simpler symbolic functions while preserving its essential behavior.
+
+![Lagrangian Simple Pendulum Formula](https://sun9-3.userapi.com/impg/BtFV5uJ-NuTthvXCYChm8iRswTzUL8T3flJ5Lw/lsD9wyJ2U0k.jpg?size=1740x421&quality=95&sign=6aea2dadf2bd25235fec608fe4ec8382&type=album)
+
+**Practice Link:** *[Trying KAN for Physics: Lab 1 - Lagrangian](https://www.kaggle.com/code/armanzhalgasbayev/trying-kan-for-physics-lab-1-lagrangian/)*
+
+**Results:**
+
+![Lagrangian Approximation vs. Original](https://sun9-13.userapi.com/impg/7y_tVfaW0QBMblaJS6yDNCkuy8tXlJI_bEnWUg/t0c1Thjb8A4.jpg?size=1048x834&quality=95&sign=a39fbc96650faf5983d0613d041b58a7&type=album)
+
+| Metric                | Value     |
+|-----------------------|-----------|
+| Mean Squared Error (MSE) | 1.426959 |
+| Mean Absolute Error (MAE) | 1.041068 |
+| R² Score              | 0.883975  |
+| 👍 Good Fit           | The model performs well but can be improved. |
+
 ## References
 
 1. [Kolmogorov-Arnold representation theorem](https://en.wikipedia.org/wiki/Kolmogorov-Arnold_representation_theorem)
