@@ -7,13 +7,15 @@
 [![Watch](https://img.shields.io/github/watchers/silvermete0r/30github.svg?logo=github&style=flat-square)](https://github.com/silvermete0r/30github)&nbsp;
 
 * **Programming Languages:** Python, C++ / C; 
-* **Main goal:** Identify effective ways to optimise KAN neural network processes (training, inference, visualisation ~ explainability) and find real-world applications of algorithm optimised for specific tasks.
-* **Tasks:** 
-  * **Research:** Study the KAN algorithm and its applications in various fields.
-  * **Development:** Implement the KAN algorithm in Python and C++ / C using various methods.
-  * **Optimisation:** Optimise the KAN algorithm for specific tasks.
-  * **Applications:** Find real-world applications of the KAN algorithm.
-  * **Visualisation:** Visualise the KAN algorithm for explainability.
+* **Main goal:** Optimize traditional neural networks using the Kolmogorov-Arnold Representation Theorem to achieve more accurate interpretable symbolic representations with better performance.
+
+* **Tasks:**
+  * **Study:** Understand the theoretical foundations of the Kolmogorov-Arnold Representation Theorem and the KAN algorithm.
+  * **Implement:** Develop the KAN algorithm in Python and C++/C.
+  * **Optimize:** Enhance the KAN algorithm for specific applications to maximize performance.
+  * **Apply:** Investigate practical applications of the KAN algorithm across various domains in symbolic mathematics, physics, and machine learning.
+  * **Visualize:** Create visual tools to represent the KAN algorithm for better comprehension.
+
 * **Duration:** 30 days (1 month)
 
 ## Table of Contents
@@ -199,13 +201,24 @@ PyKAN can be used to approximate and simplify a complex physical formula like th
 | R² Score              | 0.883975  |
 | 👍 Good Fit           | The model performs well but can be improved. |
 
+## Day 5: Get started working on OIKAN (Development of a Python library for KAN combined with MLP)
+
+OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-based library for creating interpretable neural networks. It implements the KAN architecture to provide both accurate predictions and interpretable results.
+
+**🔗 Link:** [OIKAN Github Repository](https://github.com/silvermete0r/oikan)
+
 ## References
 
-1. [Kolmogorov-Arnold representation theorem](https://en.wikipedia.org/wiki/Kolmogorov-Arnold_representation_theorem)
-2. [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)
-3. [PyKAN Library Python](https://github.com/KindXiaoming/pykan)
-4. [The Math Behind KAN – Kolmogorov-Arnold Networks](https://towardsdatascience.com/the-math-behind-kan-kolmogorov-arnold-networks-7c12a164ba95/)
-5. [(Arxiv) KAN or MLP: A Farier Comparison](https://arxiv.org/abs/2407.16674)
-6. [(Github) Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan)
-7. [(Datacamp Tutorial) Kolmogorov-Arnold Networks (KANs): A Guide With Implementation](https://www.datacamp.com/tutorial/kolmogorov-arnold-networks)
-8. [(Arxiv) Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
+1. [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)
+2. [(Arxiv) KAN 2.0: Kolmogorov-Arnold Networks Meet Science](https://arxiv.org/abs/2408.10205)
+3. [(Arxiv) KAN or MLP: A Farier Comparison](https://arxiv.org/abs/2407.16674)
+4. [(Arxiv) DropKAN: Regularizing KANs by masking post-activations](https://arxiv.org/abs/2407.13044)
+5. [(Arxiv) DropKAN: Dropout Kolmogorov-Arnold Networks](https://arxiv.org/abs/2407.13044v3)
+6. [(Arxiv) Rethinking the Function of Neurons in KANs](https://arxiv.org/abs/2407.20667)
+7. [(Github)PyKAN Library Python](https://github.com/KindXiaoming/pykan)
+8. [(Article)The Math Behind KAN – Kolmogorov-Arnold Networks](https://towardsdatascience.com/the-math-behind-kan-kolmogorov-arnold-networks-7c12a164ba95/)
+9. [(Github) Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan)
+10. [(Datacamp Tutorial) Kolmogorov-Arnold Networks (KANs): A Guide With Implementation](https://www.datacamp.com/tutorial/kolmogorov-arnold-networks)
+11. [(Arxiv) Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
+12. [(Arxiv) BSRBF-KAN: A combination of B-splines and Radial Basis Functions in Kolmogorov-Arnold Networks](https://arxiv.org/abs/2406.11173v1)
+13. [(Arxiv) MLP-KAN: Unifying Deep Representation and Function Learning](https://arxiv.org/abs/2410.03027v1)
