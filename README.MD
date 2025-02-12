@@ -207,6 +207,8 @@ OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-base
 
 **🔗 Link:** [OIKAN Github Repository](https://github.com/silvermete0r/oikan)
 
+**🔗 Comparison PyKAN vs. OIKAN vs. MLPClassifier ~ Classification Battle:** [Kaggle Notebook](https://www.kaggle.com/code/armanzhalgasbayev/titanic-pykan-vs-mlp-vs-oikan)
+
 ## References
 
 1. [(Arxiv) KAN: Kolmogorov–Arnold Networks](https://arxiv.org/abs/2404.19756)
