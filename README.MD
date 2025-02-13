@@ -11,7 +11,7 @@
 
 * **Tasks:**
   * **Study:** Understand the theoretical foundations of the Kolmogorov-Arnold Representation Theorem and the KAN algorithm.
-  * **Implement:** Develop the KAN algorithm in Python and C++/C.
+  * **Implement:** Develop the KAN algorithm in Python or C++/C.
   * **Optimize:** Enhance the KAN algorithm for specific applications to maximize performance.
   * **Apply:** Investigate practical applications of the KAN algorithm across various domains in symbolic mathematics, physics, and machine learning.
   * **Visualize:** Create visual tools to represent the KAN algorithm for better comprehension.
@@ -20,6 +20,13 @@
 
 ## Table of Contents
 - [Day 0: Intro to Kolmogorov Arnold Networks](#day-0-intro-to-kolmogorov-arnold-networks)
+- [Day 1: Implementing KAN for Regression Problems in Python](#day-1-implementing-kan-for-regression-problems-in-python)
+- [Day 2: Implementing KAN for Classification Problems in Python](#day-2-implementing-kan-for-classification-problems-in-python)
+- [Day 3: Kolmogorov–Arnold-Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov–Arnold Networks](#day-3-kolmogorovarnold-informed-neural-network-a-physicsinformed-deep-learning-framework-for-solving-pdes-based-on-kolmogorovarnold-networks)
+- [Day 4: Trying KAN for Physics ~ Lagrangian Mechanics](#day-4-trying-kan-for-physics--lagrangian-mechanics)
+- [Day 5: Get started working on OIKAN (Development of a Python library for KAN combined with MLP)](#day-5-get-started-working-on-oikan-development-of-a-python-library-for-kan-combined-with-mlp)
+- [Day 6: Mathematical Foundation and Architecture of OIKAN](#day-6-mathematical-foundation-and-architecture-of-oikan)
+
 - [References](#references)
 
 ## Day 0: Intro to Kolmogorov Arnold Networks
