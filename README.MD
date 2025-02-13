@@ -207,7 +207,19 @@ OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-base
 
 **🔗 Link:** [OIKAN Github Repository](https://github.com/silvermete0r/oikan)
 
-**🔗 Comparison PyKAN vs. OIKAN vs. MLPClassifier ~ Classification Battle:** [Kaggle Notebook](https://www.kaggle.com/code/armanzhalgasbayev/titanic-pykan-vs-mlp-vs-oikan)
+**🔗 Released OIKAN as a PyPi library:** [oikan 0.0.1.2](https://pypi.org/project/oikan/0.0.1.2/)
+
+**🔗 Comparison PyKAN vs. OIKAN vs. MLPClassifier ~ Classification Battle:** [Kaggle Notebook](notebooks/titanic-pykan-vs-mlp-vs-oikan.ipynb)
+
+## Day 6: Mathematical Foundation and Architecture of OIKAN
+
+### Mathematical Foundation of OIKAN
+
+...
+
+### Architecture of OIKAN
+
+...
 
 ## References
 
@@ -224,3 +236,4 @@ OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-base
 11. [(Arxiv) Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
 12. [(Arxiv) BSRBF-KAN: A combination of B-splines and Radial Basis Functions in Kolmogorov-Arnold Networks](https://arxiv.org/abs/2406.11173v1)
 13. [(Arxiv) MLP-KAN: Unifying Deep Representation and Function Learning](https://arxiv.org/abs/2410.03027v1)
+14. [(Github) An Efficient Implementation of Kolmogorov-Arnold Network](https://github.com/Blealtan/efficient-kan)
