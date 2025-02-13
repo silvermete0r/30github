@@ -215,11 +215,20 @@ OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-base
 
 ### Mathematical Foundation of OIKAN
 
-...
+![Kolmogorov-Arnold Representation Theorem (KART)](img/math_foundation_oikanv_001/kart.png)
 
-### Architecture of OIKAN
+![EfficientKAN Feature Transformation](img/math_foundation_oikanv_001/efficientkan_feature_transformation.png)
 
-...
+![Feature Interaction Layer](img/math_foundation_oikanv_001/feature_extraction_layer.png)
+
+![Adaptive Basis Layer](img/math_foundation_oikanv_001/adaptive_basis_layer.png)
+
+![Loss Function with Regularization](img/math_foundation_oikanv_001/loss_function_with_regularization.png)
+
+### OIKAN Model Architecture
+
+![OIKAN Model Architecture](img/math_foundation_oikanv_001/OIKAN%20v0.0.1%20Model%20Architecture.png)
+
 
 ## References
 
