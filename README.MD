@@ -26,7 +26,8 @@
 - [Day 4: Trying KAN for Physics ~ Lagrangian Mechanics](#day-4-trying-kan-for-physics--lagrangian-mechanics)
 - [Day 5: Get started working on OIKAN (Development of a Python library for KAN combined with MLP)](#day-5-get-started-working-on-oikan-development-of-a-python-library-for-kan-combined-with-mlp)
 - [Day 6: Mathematical Foundation and Architecture of OIKAN](#day-6-mathematical-foundation-and-architecture-of-oikan)
-
+- [Day 7: Symbolic Formula Extraction Development for Regression](#day-7-symbolic-formula-extraction-development-for-regression)
+- [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
 ## Day 0: Intro to Kolmogorov Arnold Networks
@@ -236,6 +237,14 @@ OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-base
 
 ![OIKAN Model Architecture](img/math_foundation_oikanv_001/OIKAN%20v0.0.1%20Model%20Architecture.png)
 
+## Day 7: Symbolic Formula Extraction Development for Regression
+
+Today, we'll focus on developing a symbolic formula extraction module for regression problems in OIKAN. The goal is to extract interpretable symbolic formulas from trained OIKAN models to enhance model transparency and understanding.
+
+
+## Contributing to the OIKAN Library
+
+If you're interested in contributing to the OIKAN library, feel free to check out the [Github repository](https://github.com/silvermete0r/oikan)
 
 ## References
 
