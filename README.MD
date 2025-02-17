@@ -28,7 +28,7 @@
 - [Day 6: Mathematical Foundation and Architecture of OIKAN](#day-6-mathematical-foundation-and-architecture-of-oikan)
 - [Day 7: Symbolic Formula Extraction Development for Regression](#day-7-symbolic-formula-extraction-development-for-regression)
 - [Day 8: Symbolic Formula Extraction Development for Classification](#day-8-symbolic-formula-extraction-development-for-classification)
-- [Day 9: Model Interpretability and Visualization in OIKAN: `model.plot()`](#day-9-model-interpretability-and-visualization-in-oikan-modelplot)
+- [Day 9: Model Interpretability and Visualization in OIKAN: `plot_symbolic_formula()` for regression & classification models](#day-9-model-interpretability-and-visualization-in-oikan-plot_symbolic_formula-for-regression--classification-models)
 - [Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN](#day-10-latex-symbolic-formula-extractor-function-in-oikan)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
@@ -248,9 +248,9 @@ Today, we'll focus on developing a symbolic formula extraction module for regres
 
 Today, we'll focus on developing a symbolic formula extraction module for classification problems in OIKAN. The goal is to extract interpretable symbolic formulas from trained OIKAN models to enhance model transparency and understanding.
 
-## Day 9: Model Interpretability and Visualization in OIKAN: `model.plot()`
+## Day 9: Model Interpretability and Visualization in OIKAN: `plot_symbolic_formula()` for regression & classification models
 
-Today, we'll explore the model interpretability and visualization features in OIKAN. The `model.plot()` function generates a visual representation of the trained OIKAN model, providing insights into the model's structure and behavior.
+Today, we'll work on enhancing model interpretability and visualization in OIKAN by developing a `plot_symbolic_formula()` function. This function will generate visual representations of the symbolic formulas extracted from trained OIKAN models for regression and classification tasks.
 
 ## Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN
 
