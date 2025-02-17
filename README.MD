@@ -29,6 +29,7 @@
 - [Day 7: Symbolic Formula Extraction Development for Regression](#day-7-symbolic-formula-extraction-development-for-regression)
 - [Day 8: Symbolic Formula Extraction Development for Classification](#day-8-symbolic-formula-extraction-development-for-classification)
 - [Day 9: Model Interpretability and Visualization in OIKAN: `model.plot()`](#day-9-model-interpretability-and-visualization-in-oikan-modelplot)
+- [Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN](#day-10-latex-symbolic-formula-extractor-function-in-oikan)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -250,6 +251,10 @@ Today, we'll focus on developing a symbolic formula extraction module for classi
 ## Day 9: Model Interpretability and Visualization in OIKAN: `model.plot()`
 
 Today, we'll explore the model interpretability and visualization features in OIKAN. The `model.plot()` function generates a visual representation of the trained OIKAN model, providing insights into the model's structure and behavior.
+
+## Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN
+
+Today, we'll develop a LaTeX symbolic formula extractor function in OIKAN. The function will convert the symbolic formulas extracted from trained OIKAN models into LaTeX format for better presentation and readability.
 
 ## Contributing to the OIKAN Library
 
