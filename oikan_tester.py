@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Import OIKAN components
 from oikan.model import OIKAN
 from oikan.trainer import train
-from oikan.symbolic import extract_symbolic_formula
+from oikan.symbolic import extract_symbolic_formula, plot_symbolic_formula
 
 # Parameters for the simple pendulum
 m = 1.0  # mass (kg)
@@ -43,6 +43,9 @@ symbolic_formula = extract_symbolic_formula(model, X_train, mode='regression')
 
 # Print the symbolic formula
 print("OIKAN Extracted Symbolic Formula:", symbolic_formula)
+
+# Plot the symbolic formula
+plot_symbolic_formula(model, X_train, mode='regression')
 
 # Accuracy of the model
 with torch.no_grad():
