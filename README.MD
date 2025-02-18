@@ -256,6 +256,11 @@ Today, we'll work on enhancing model interpretability and visualization in OIKAN
 
 Today, we'll develop a LaTeX symbolic formula extractor function in OIKAN. The function will convert the symbolic formulas extracted from trained OIKAN models into LaTeX format for better presentation and readability.
 
+# Day 11: Working on Documentation of the Project
+
+Today, we'll focus on documenting the OIKAN project to provide clear instructions, examples, and explanations for users. The documentation will cover installation, usage, features, and more to help users understand and utilize the OIKAN library effectively.
+
+
 ## Contributing to the OIKAN Library
 
 If you're interested in contributing to the OIKAN library, feel free to check out the [Github repository](https://github.com/silvermete0r/oikan)

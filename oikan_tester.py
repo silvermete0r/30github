@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Import OIKAN components
 from oikan.model import OIKAN
 from oikan.trainer import train
-from oikan.symbolic import extract_symbolic_formula_regression
+from oikan.symbolic import extract_symbolic_formula
 
 # Parameters for the simple pendulum
 m = 1.0  # mass (kg)
@@ -39,10 +39,16 @@ model = OIKAN(input_dim=2, output_dim=1, hidden_units=10)
 train(model, (X_train_torch, y_train_torch), epochs=500, lr=0.01)
 
 # Extract the symbolic approximation of the Lagrange function
-symbolic_formula = extract_symbolic_formula_regression(model, X_train)
+symbolic_formula = extract_symbolic_formula(model, X_train, mode='regression')
 
 # Print the symbolic formula
 print("OIKAN Extracted Symbolic Formula:", symbolic_formula)
+
+# Accuracy of the model
+with torch.no_grad():
+    y_pred = model(X_train_torch).numpy().reshape(100, 100)
+    mse = np.mean((y_train - y_pred.ravel())**2)
+    print("Mean Squared Error:", mse)
 
 # Visualization of OIKAN Approximation
 with torch.no_grad():
