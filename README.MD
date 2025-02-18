@@ -30,6 +30,7 @@
 - [Day 8: Symbolic Formula Extraction Development for Classification](#day-8-symbolic-formula-extraction-development-for-classification)
 - [Day 9: Model Interpretability and Visualization in OIKAN: `plot_symbolic_formula()` for regression & classification models](#day-9-model-interpretability-and-visualization-in-oikan-plot_symbolic_formula-for-regression--classification-models)
 - [Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN](#day-10-latex-symbolic-formula-extractor-function-in-oikan)
+- [Day 11: Working on Documentation of the Project](#day-11-working-on-documentation-of-the-project)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
