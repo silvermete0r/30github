@@ -31,6 +31,7 @@
 - [Day 9: Model Interpretability and Visualization in OIKAN: `plot_symbolic_formula()` for regression & classification models](#day-9-model-interpretability-and-visualization-in-oikan-plot_symbolic_formula-for-regression--classification-models)
 - [Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN](#day-10-latex-symbolic-formula-extractor-function-in-oikan)
 - [Day 11: Working on Documentation of the Project](#day-11-working-on-documentation-of-the-project)
+- [Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation](#day-12-3d-visualization-of-symbolic-formulas-in-oikan-for-function-approximation)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -261,6 +262,9 @@ Today, we'll develop a LaTeX symbolic formula extractor function in OIKAN. The f
 
 Today, we'll focus on documenting the OIKAN project to provide clear instructions, examples, and explanations for users. The documentation will cover installation, usage, features, and more to help users understand and utilize the OIKAN library effectively.
 
+# Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation
+
+Today, we'll explore 3D visualization of symbolic formulas in OIKAN for function approximation. The goal is to create interactive visualizations that showcase the symbolic formulas extracted from trained OIKAN models in a 3D space, providing a unique perspective on the model's interpretability and performance.
 
 ## Contributing to the OIKAN Library
 
@@ -274,7 +278,7 @@ If you're interested in contributing to the OIKAN library, feel free to check ou
 4. [(Arxiv) DropKAN: Regularizing KANs by masking post-activations](https://arxiv.org/abs/2407.13044)
 5. [(Arxiv) DropKAN: Dropout Kolmogorov-Arnold Networks](https://arxiv.org/abs/2407.13044v3)
 6. [(Arxiv) Rethinking the Function of Neurons in KANs](https://arxiv.org/abs/2407.20667)
-7. [(Github)PyKAN Library Python](https://github.com/KindXiaoming/pykan)
+7. [(Github) PyKAN Library Python](https://github.com/KindXiaoming/pykan)
 8. [(Article)The Math Behind KAN – Kolmogorov-Arnold Networks](https://towardsdatascience.com/the-math-behind-kan-kolmogorov-arnold-networks-7c12a164ba95/)
 9. [(Github) Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan)
 10. [(Datacamp Tutorial) Kolmogorov-Arnold Networks (KANs): A Guide With Implementation](https://www.datacamp.com/tutorial/kolmogorov-arnold-networks)
