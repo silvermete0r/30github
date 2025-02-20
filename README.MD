@@ -32,6 +32,7 @@
 - [Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN](#day-10-latex-symbolic-formula-extractor-function-in-oikan)
 - [Day 11: Working on Documentation of the Project](#day-11-working-on-documentation-of-the-project)
 - [Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation](#day-12-3d-visualization-of-symbolic-formulas-in-oikan-for-function-approximation)
+- [Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN](#day-13-trying-to-optimize-high-dimensional-data-handling-with-svd-singular-value-decomposition-in-oikan)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -265,6 +266,10 @@ Today, we'll focus on documenting the OIKAN project to provide clear instruction
 # Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation
 
 Today, we'll explore 3D visualization of symbolic formulas in OIKAN for function approximation. The goal is to create interactive visualizations that showcase the symbolic formulas extracted from trained OIKAN models in a 3D space, providing a unique perspective on the model's interpretability and performance.
+
+# Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN
+
+Today, we'll investigate optimizing high-dimensional data handling in OIKAN using Singular Value Decomposition (SVD). By applying SVD to the input data, we aim to reduce dimensionality, enhance computational efficiency, and improve model performance for large-scale datasets.
 
 ## Contributing to the OIKAN Library
 
