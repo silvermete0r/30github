@@ -34,6 +34,7 @@
 - [Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation](#day-12-3d-visualization-of-symbolic-formulas-in-oikan-for-function-approximation)
 - [Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN](#day-13-trying-to-optimize-high-dimensional-data-handling-with-svd-singular-value-decomposition-in-oikan)
 - [Day 14: Re-Thinking the Architecture of OIKAN](#day-14-re-thinking-the-architecture-of-oikan)
+- [Day 15: OIKAN Docs Page (Landing Page) Development & Deployment](#day-15-oikan-docs-page-landing-page-development--deployment)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -276,6 +277,9 @@ Today, we'll investigate optimizing high-dimensional data handling in OIKAN usin
 
 Today, we'll re-think the architecture of OIKAN to enhance its performance, scalability, and interpretability. 
 
+# Day 15: OIKAN Docs Page (Landing Page) Development & Deployment
+
+Today, we'll focus on developing and deploying the OIKAN documentation landing page. The landing page will serve as a central hub for users to access information, tutorials, examples, and resources related to the OIKAN library.
 
 ## Contributing to the OIKAN Library
 
