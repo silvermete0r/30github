@@ -36,6 +36,7 @@
 - [Day 14: Re-Thinking the Architecture of OIKAN](#day-14-re-thinking-the-architecture-of-oikan)
 - [Day 15: OIKAN Docs Page (Landing Page) Development & Deployment](#day-15-oikan-docs-page-landing-page-development--deployment)
 - [Day 16: OIKAN Project Defense Presentation](#day-16-oikan-project-defense-presentation)
+- [Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models](#day-17-oikan-experiments-and-comparisons-with-classical-mlp-and-kan-models)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -282,9 +283,19 @@ Today, we'll re-think the architecture of OIKAN to enhance its performance, scal
 
 Today, we'll focus on developing and deploying the OIKAN documentation landing page. The landing page will serve as a central hub for users to access information, tutorials, examples, and resources related to the OIKAN library.
 
-# Day 16: OIKAN Project Defense Presentation
+# Day 16: OIKAN Project Defense Presentation (~ Model Saving function added)
 
 Today, we'll prepare and present a project defense presentation for the OIKAN library. The presentation will cover the motivation, architecture, features, applications, and future directions of OIKAN, highlighting its unique contributions to the field of interpretable neural networks.
+
+# Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models
+
+**Good news for february 24:** We have published at "Awesome KAN" github repository containing curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kolmogorov-Arnold Network (KAN). That's a great opportunity to share our OIKAN library with the community and get feedback from the experts.
+
+**Link:** [Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan) 
+
+Next step is to complete first version of the research paper about OIKAN library and submit it to journals for review, then add official research paper to "Awesome KAN" github repository.
+
+Today, we'll conduct experiments and comparisons of the OIKAN model with classical MLP and KAN models. The goal is to evaluate the performance, interpretability, and efficiency of OIKAN across various datasets and tasks, showcasing its unique advantages and capabilities in classification and regression problems.
 
 ## Contributing to the OIKAN Library
 
@@ -306,3 +317,4 @@ If you're interested in contributing to the OIKAN library, feel free to check ou
 12. [(Arxiv) BSRBF-KAN: A combination of B-splines and Radial Basis Functions in Kolmogorov-Arnold Networks](https://arxiv.org/abs/2406.11173v1)
 13. [(Arxiv) MLP-KAN: Unifying Deep Representation and Function Learning](https://arxiv.org/abs/2410.03027v1)
 14. [(Github) An Efficient Implementation of Kolmogorov-Arnold Network](https://github.com/Blealtan/efficient-kan)
+15. [(Arxiv) Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability](https://arxiv.org/abs/2406.02496)
