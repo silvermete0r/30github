@@ -283,6 +283,8 @@ Today, we'll re-think the architecture of OIKAN to enhance its performance, scal
 
 Today, we'll focus on developing and deploying the OIKAN documentation landing page. The landing page will serve as a central hub for users to access information, tutorials, examples, and resources related to the OIKAN library.
 
+**🔗 Link:** [silvermete0r.github.io/oikan](https://silvermete0r.github.io/oikan)
+
 # Day 16: OIKAN Project Defense Presentation (~ Model Saving function added)
 
 Today, we'll prepare and present a project defense presentation for the OIKAN library. The presentation will cover the motivation, architecture, features, applications, and future directions of OIKAN, highlighting its unique contributions to the field of interpretable neural networks.
