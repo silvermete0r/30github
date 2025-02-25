@@ -299,6 +299,14 @@ Next step is to complete first version of the research paper about OIKAN library
 
 Today, we'll conduct experiments and comparisons of the OIKAN model with classical MLP and KAN models. The goal is to evaluate the performance, interpretability, and efficiency of OIKAN across various datasets and tasks, showcasing its unique advantages and capabilities in classification and regression problems.
 
+# Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions
+
+**Good news for february 25:** Successfully submitted my research project about OIKAN library to the for the first stage of the competition of scientific papers of Astana IT University students.
+
+Function approximation is a key task in machine learning and scientific computing. Today, we'll test the approximation ability of OIKAN on a set of 30 bivariate functions, evaluating its performance in capturing complex patterns and relationships. The results will demonstrate OIKAN's effectiveness in function approximation and its potential for diverse applications.
+
+**🔗 Link:** [OIKAN vs. 30 bivariate functions notebook](notebooks/oikan-2-variate-functions-approximation-30.ipynb)
+
 ## Contributing to the OIKAN Library
 
 If you're interested in contributing to the OIKAN library, feel free to check out the [Github repository](https://github.com/silvermete0r/oikan)
