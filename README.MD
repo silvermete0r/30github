@@ -264,33 +264,33 @@ Today, we'll work on enhancing model interpretability and visualization in OIKAN
 
 Today, we'll develop a LaTeX symbolic formula extractor function in OIKAN. The function will convert the symbolic formulas extracted from trained OIKAN models into LaTeX format for better presentation and readability.
 
-# Day 11: Working on Documentation of the Project
+## Day 11: Working on Documentation of the Project
 
 Today, we'll focus on documenting the OIKAN project to provide clear instructions, examples, and explanations for users. The documentation will cover installation, usage, features, and more to help users understand and utilize the OIKAN library effectively.
 
-# Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation
+## Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation
 
 Today, we'll explore 3D visualization of symbolic formulas in OIKAN for function approximation. The goal is to create interactive visualizations that showcase the symbolic formulas extracted from trained OIKAN models in a 3D space, providing a unique perspective on the model's interpretability and performance.
 
-# Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN
+## Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN
 
 Today, we'll investigate optimizing high-dimensional data handling in OIKAN using Singular Value Decomposition (SVD). By applying SVD to the input data, we aim to reduce dimensionality, enhance computational efficiency, and improve model performance for large-scale datasets.
 
-# Day 14: Re-Thinking the Architecture of OIKAN
+## Day 14: Re-Thinking the Architecture of OIKAN
 
 Today, we'll re-think the architecture of OIKAN to enhance its performance, scalability, and interpretability. 
 
-# Day 15: OIKAN Docs Page (Landing Page) Development & Deployment
+## Day 15: OIKAN Docs Page (Landing Page) Development & Deployment
 
 Today, we'll focus on developing and deploying the OIKAN documentation landing page. The landing page will serve as a central hub for users to access information, tutorials, examples, and resources related to the OIKAN library.
 
 **🔗 Link:** [silvermete0r.github.io/oikan](https://silvermete0r.github.io/oikan)
 
-# Day 16: OIKAN Project Defense Presentation (~ Model Saving function added)
+## Day 16: OIKAN Project Defense Presentation (~ Model Saving function added)
 
 Today, we'll prepare and present a project defense presentation for the OIKAN library. The presentation will cover the motivation, architecture, features, applications, and future directions of OIKAN, highlighting its unique contributions to the field of interpretable neural networks.
 
-# Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models
+## Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models
 
 **Good news for february 24:** We have published at "Awesome KAN" github repository containing curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kolmogorov-Arnold Network (KAN). That's a great opportunity to share our OIKAN library with the community and get feedback from the experts.
 
@@ -300,11 +300,13 @@ Next step is to complete first version of the research paper about OIKAN library
 
 Today, we'll conduct experiments and comparisons of the OIKAN model with classical MLP and KAN models. The goal is to evaluate the performance, interpretability, and efficiency of OIKAN across various datasets and tasks, showcasing its unique advantages and capabilities in classification and regression problems.
 
-# Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions
+## Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions
 
 **Good news for february 25:** Successfully submitted my research project about OIKAN library to the for the first stage of the competition of scientific papers of Astana IT University students.
 
 Function approximation is a key task in machine learning and scientific computing. Today, we'll test the approximation ability of OIKAN on a set of 30 bivariate functions, evaluating its performance in capturing complex patterns and relationships. The results will demonstrate OIKAN's effectiveness in function approximation and its potential for diverse applications.
+
+## Day 19: Coming soon..
 
 **🔗 Link:** [OIKAN vs. 30 bivariate functions notebook](notebooks/oikan-2-variate-functions-approximation-30.ipynb)
 
