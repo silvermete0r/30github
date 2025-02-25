@@ -37,6 +37,7 @@
 - [Day 15: OIKAN Docs Page (Landing Page) Development & Deployment](#day-15-oikan-docs-page-landing-page-development--deployment)
 - [Day 16: OIKAN Project Defense Presentation](#day-16-oikan-project-defense-presentation)
 - [Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models](#day-17-oikan-experiments-and-comparisons-with-classical-mlp-and-kan-models)
+- [Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions](#day-18-oikan-tesing-approximation-ability-on-set-of-30-bivariate-functions)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
