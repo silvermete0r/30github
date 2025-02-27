@@ -39,6 +39,7 @@
 - [Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models](#day-17-oikan-experiments-and-comparisons-with-classical-mlp-and-kan-models)
 - [Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions](#day-18-oikan-tesing-approximation-ability-on-set-of-30-bivariate-functions)
 - [Day 19: OIKAN practical use cases open-source contribution challenge + implemented "Featured Projects" sections on the OIKAN Docs Page](#day-19-oikan-practical-use-cases-open-source-contribution-challenge--implemented-featured-projects-sections-on-the-oikan-docs-page)
+- [Day 20: Contribution to the Adaptive Basis Layer Problem to the DeepML Platform](#day-20-contribution-to-the-adaptive-basis-layer-problem-to-the-deepml-platform)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -307,13 +308,19 @@ Today, we'll conduct experiments and comparisons of the OIKAN model with classic
 
 Function approximation is a key task in machine learning and scientific computing. Today, we'll test the approximation ability of OIKAN on a set of 30 bivariate functions, evaluating its performance in capturing complex patterns and relationships. The results will demonstrate OIKAN's effectiveness in function approximation and its potential for diverse applications.
 
+**🔗 Link:** [OIKAN vs. 30 bivariate functions notebook](notebooks/oikan-2-variate-functions-approximation-30.ipynb)
+
 ## Day 19: Added OIKAN practical use cases open-source contribution challenge + implemented "Featured Projects" sections on the OIKAN Docs Page
 
 Today, we'll add practical use cases and open-source contribution challenges for OIKAN to encourage community engagement and collaboration. We'll also implement a "Featured Projects" section on the OIKAN documentation landing page to showcase innovative applications and projects developed using the OIKAN library.
 
 Check out the OIKAN Docs Page for more details: [silvermete0r.github.io/oikan](https://silvermete0r.github.io/oikan)
 
-**🔗 Link:** [OIKAN vs. 30 bivariate functions notebook](notebooks/oikan-2-variate-functions-approximation-30.ipynb)
+## Day 20: Contribution to the Adaptive Basis Layer Problem to the DeepML Platform
+
+Today, we'll contribute to the Adaptive Basis Layer problem on the DeepML platform, focusing on making each part of the OIKAN architecture understandable and accessible to the community. By sharing our insights and solutions, we aim to enhance the performance and usability of the Adaptive Basis Layer in OIKAN and contribute to the broader field of interpretable neural networks.
+
+**🔗 Link:** [DeepML Platform](https://www.deep-ml.com/)
 
 ## Contributing to the OIKAN Library
 
