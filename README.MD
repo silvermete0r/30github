@@ -39,7 +39,8 @@
 - [Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models](#day-17-oikan-experiments-and-comparisons-with-classical-mlp-and-kan-models)
 - [Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions](#day-18-oikan-tesing-approximation-ability-on-set-of-30-bivariate-functions)
 - [Day 19: OIKAN practical use cases open-source contribution challenge + implemented "Featured Projects" sections on the OIKAN Docs Page](#day-19-oikan-practical-use-cases-open-source-contribution-challenge--implemented-featured-projects-sections-on-the-oikan-docs-page)
-- [Day 20: Contribution to the Adaptive Basis Layer Problem to the DeepML Platform](#day-20-contribution-to-the-adaptive-basis-layer-problem-to-the-deepml-platform)
+- [Day 20: Contribution of Adaptive Basis Layer Problem to the DeepML Platform](#day-20-contribution-of-adaptive-basis-layer-problem-to-the-deepml-platform)
+- [Day 21: Contribution of Feature Interaction Layer Problem to the DeepML Platform](#day-21-contribution-of-feature-interaction-layer-problem-to-the-deepml-platform)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -316,9 +317,15 @@ Today, we'll add practical use cases and open-source contribution challenges for
 
 Check out the OIKAN Docs Page for more details: [silvermete0r.github.io/oikan](https://silvermete0r.github.io/oikan)
 
-## Day 20: Contribution to the Adaptive Basis Layer Problem to the DeepML Platform
+## Day 20: Contribution of Adaptive Basis Layer Problem to the DeepML Platform
 
 Today, we'll contribute to the Adaptive Basis Layer problem on the DeepML platform, focusing on making each part of the OIKAN architecture understandable and accessible to the community. By sharing our insights and solutions, we aim to enhance the performance and usability of the Adaptive Basis Layer in OIKAN and contribute to the broader field of interpretable neural networks.
+
+**🔗 Link:** [DeepML Platform](https://www.deep-ml.com/)
+
+## Day 21: Contribution of Feature Interaction Layer Problem to the DeepML Platform
+
+Today, we'll contribute to the Feature Interaction Layer problem on the DeepML platform, focusing on optimizing the interaction between features in OIKAN models. By addressing this challenge, we aim to improve the interpretability and performance of OIKAN models and provide valuable insights for the DeepML community.
 
 **🔗 Link:** [DeepML Platform](https://www.deep-ml.com/)
 
