@@ -43,6 +43,7 @@
 - [Day 21: Contribution of Feature Interaction Layer Problem to the DeepML Platform](#day-21-contribution-of-feature-interaction-layer-problem-to-the-deepml-platform)
 - [Day 22: Contribution of Optimized Loss Function Problem to the DeepML Platform](#day-22-contribution-of-optimized-loss-function-problem-to-the-deepml-platform)
 - [Day 23: Considering further optimization methods for the OIKAN architecture](#day-23-considering-further-optimization-methods-for-the-oikan-architecture)
+- [Day 24: Researching the Micrograd project by Andrej Karpathy](#day-24-researching-the-micrograd-project-by-andrej-karpathy)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -340,6 +341,12 @@ Today, we'll contribute to the Optimized Loss Function problem on the DeepML pla
 ## Day 23: Considering further optimization methods for the OIKAN architecture
 
 Today, we'll explore further optimization methods for the OIKAN architecture to enhance its performance, scalability, and interpretability. By investigating advanced techniques and algorithms, we aim to push the boundaries of interpretable neural networks and unlock new possibilities for OIKAN in various applications.
+
+## Day 24: Researching the Micrograd project by Andrej Karpathy
+
+Today, we'll research the Micrograd project by Andrej Karpathy, focusing on its implementation of a minimal autograd engine in Python. By studying the Micrograd codebase and design principles, we aim to gain insights into autograd libraries, neural network architectures, and deep learning frameworks, informing our work on the OIKAN library. 
+
+**🔗 Link:** [Micrograd Github Repository](https://github.com/karpathy/micrograd)
 
 ## Contributing to the OIKAN Library
 
