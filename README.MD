@@ -45,6 +45,7 @@
 - [Day 23: Considering further optimization methods for the OIKAN architecture](#day-23-considering-further-optimization-methods-for-the-oikan-architecture)
 - [Day 24: Researching the Micrograd project by Andrej Karpathy](#day-24-researching-the-micrograd-project-by-andrej-karpathy)
 - [Day 25: Implementation of Adam Optimizer (Practice)](#day-25-implementation-of-adam-optimizer-practice)
+- [Day 26: Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-26-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -354,6 +355,12 @@ Today, we'll research the Micrograd project by Andrej Karpathy, focusing on its 
 Today, we'll implement the Adam optimizer from scratch in Python as a practice exercise. By developing the Adam optimizer, we aim to deepen our understanding of optimization algorithms, gradient descent methods, and neural network training processes, enhancing our skills in building efficient and effective machine learning models.
 
 **🔗 Link:** [DeepML Adam Optimizer No. 49](https://www.deep-ml.com/problems/49)
+
+## Day 26: Preparing a paper for IEEE Conference on Machine Learning and Applications
+
+Today, we'll prepare a research paper on the OIKAN library for submission to the IEEE Conference on Machine Learning and Applications. The paper will cover the motivation, architecture, features, applications, and experimental results of OIKAN, highlighting its contributions to interpretable neural networks and machine learning research.
+
+**🔗 Link:** [IEEE Conference on ML: AITU](https://student-conference.astanait.edu.kz/)
 
 ## Contributing to the OIKAN Library
 
