@@ -48,6 +48,7 @@
 - [Day 26: Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-26-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
 - [Day 27: 2.0 Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-27-2.0-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
 - [Day 28: Trying out Cython | experimenting ~ learning](#day-28-trying-out-cython--experimenting--learning)
+- [Day 29: 3.0 Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-29-3.0-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -371,6 +372,10 @@ Today, we'll prepare a research paper on the OIKAN library for submission to the
 ## Day 28: Trying out Cython | experimenting ~ learning
 
 ~ Trying to use Cython for Python code optimization and performance improvement.
+
+## Day 29: 3.0 Preparing a paper for IEEE Conference on Machine Learning and Applications
+
+~ Third day of working on research paper for IEEE.
 
 ## Contributing to the OIKAN Library
 
