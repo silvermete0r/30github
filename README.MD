@@ -49,6 +49,7 @@
 - [Day 27: 2.0 Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-27-2.0-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
 - [Day 28: Trying out Cython | experimenting ~ learning](#day-28-trying-out-cython--experimenting--learning)
 - [Day 29: 3.0 Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-29-3.0-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
+- [Day 30: TOP 30 Essential DS/ML functions imlplementation in clear NumPy (Part - 1)](#day-30-top-30-essential-dsml-functions-imlplementation-in-clear-numpy-part---1)
 - [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
 - [References](#references)
 
@@ -376,6 +377,12 @@ Today, we'll prepare a research paper on the OIKAN library for submission to the
 ## Day 29: 3.0 Preparing a paper for IEEE Conference on Machine Learning and Applications
 
 ~ Third day of working on research paper for IEEE.
+
+## Day 30: TOP 30 Essential DS/ML functions imlplementation in clear NumPy (Part - 1)
+
+Today, we'll implement the top 30 essential data science and machine learning functions in clear NumPy code. By developing these functions from scratch, we aim to deepen our understanding of fundamental algorithms, data processing techniques, and mathematical operations used in data science and machine learning applications.
+
+**🔗 Link:** [TOP 30 DS/ML functions in clear Numpy [Part-1]](https://www.kaggle.com/code/armanzhalgasbayev/top-30-ds-ml-functions-in-clear-numpy-part-1) 
 
 ## Contributing to the OIKAN Library
 
