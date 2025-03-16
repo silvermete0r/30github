@@ -405,3 +405,5 @@ If you're interested in contributing to the OIKAN library, feel free to check ou
 13. [(Arxiv) MLP-KAN: Unifying Deep Representation and Function Learning](https://arxiv.org/abs/2410.03027v1)
 14. [(Github) An Efficient Implementation of Kolmogorov-Arnold Network](https://github.com/Blealtan/efficient-kan)
 15. [(Arxiv) Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability](https://arxiv.org/abs/2406.02496)
+
+**Task:** Redesign and re-complete this 30 days OIKAN challenge github repository with more detailed information and examples.
