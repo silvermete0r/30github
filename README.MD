@@ -1,21 +1,17 @@
 ![KAN-30-Days-Challenge-Header](img/kan-research-30-days-challenge-header.png)
 
-# 30 Days of Kolmogorov Arnold Networks Research
+# 30 Days of development OIKAN Library
 
 [![Star](https://img.shields.io/github/stars/silvermete0r/30github.svg?logo=github&style=flat-square)](https://github.com/silvermete0r/30github)&nbsp;
 [![Fork](https://img.shields.io/github/forks/silvermete0r/30github.svg?logo=github&style=flat-square)](https://github.com/silvermete0r/30github)&nbsp;
 [![Watch](https://img.shields.io/github/watchers/silvermete0r/30github.svg?logo=github&style=flat-square)](https://github.com/silvermete0r/30github)&nbsp;
 <a href="https://dataflow.kz/"><img src="https://img.shields.io/badge/Powered%20by-Dataflow-line.svg" alt="dataflow" /></a>&nbsp;
 
-* **Programming Languages:** Python, C++ / C; 
+* **Programming Languages:** Python; 
 * **Main goal:** Optimize traditional neural networks using the Kolmogorov-Arnold Representation Theorem to achieve more accurate interpretable symbolic representations with better performance.
 
-* **Tasks:**
-  * **Study:** Understand the theoretical foundations of the Kolmogorov-Arnold Representation Theorem and the KAN algorithm.
-  * **Implement:** Develop the KAN algorithm in Python or C++/C.
-  * **Optimize:** Enhance the KAN algorithm for specific applications to maximize performance.
-  * **Apply:** Investigate practical applications of the KAN algorithm across various domains in symbolic mathematics, physics, and machine learning.
-  * **Visualize:** Create visual tools to represent the KAN algorithm for better comprehension.
+* **Idea:**
+
 
 * **Duration:** 30 days (1 month)
 
@@ -23,36 +19,7 @@
 - [Day 0: Intro to Kolmogorov Arnold Networks](#day-0-intro-to-kolmogorov-arnold-networks)
 - [Day 1: Implementing KAN for Regression Problems in Python](#day-1-implementing-kan-for-regression-problems-in-python)
 - [Day 2: Implementing KAN for Classification Problems in Python](#day-2-implementing-kan-for-classification-problems-in-python)
-- [Day 3: Kolmogorov–Arnold-Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov–Arnold Networks](#day-3-kolmogorovarnold-informed-neural-network-a-physicsinformed-deep-learning-framework-for-solving-pdes-based-on-kolmogorovarnold-networks)
-- [Day 4: Trying KAN for Physics ~ Lagrangian Mechanics](#day-4-trying-kan-for-physics--lagrangian-mechanics)
-- [Day 5: Get started working on OIKAN (Development of a Python library for KAN combined with MLP)](#day-5-get-started-working-on-oikan-development-of-a-python-library-for-kan-combined-with-mlp)
-- [Day 6: Mathematical Foundation and Architecture of OIKAN](#day-6-mathematical-foundation-and-architecture-of-oikan)
-- [Day 7: Symbolic Formula Extraction Development for Regression](#day-7-symbolic-formula-extraction-development-for-regression)
-- [Day 8: Symbolic Formula Extraction Development for Classification](#day-8-symbolic-formula-extraction-development-for-classification)
-- [Day 9: Model Interpretability and Visualization in OIKAN: `plot_symbolic_formula()` for regression & classification models](#day-9-model-interpretability-and-visualization-in-oikan-plot_symbolic_formula-for-regression--classification-models)
-- [Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN](#day-10-latex-symbolic-formula-extractor-function-in-oikan)
-- [Day 11: Working on Documentation of the Project](#day-11-working-on-documentation-of-the-project)
-- [Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation](#day-12-3d-visualization-of-symbolic-formulas-in-oikan-for-function-approximation)
-- [Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN](#day-13-trying-to-optimize-high-dimensional-data-handling-with-svd-singular-value-decomposition-in-oikan)
-- [Day 14: Re-Thinking the Architecture of OIKAN](#day-14-re-thinking-the-architecture-of-oikan)
-- [Day 15: OIKAN Docs Page (Landing Page) Development & Deployment](#day-15-oikan-docs-page-landing-page-development--deployment)
-- [Day 16: OIKAN Project Defense Presentation](#day-16-oikan-project-defense-presentation)
-- [Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models](#day-17-oikan-experiments-and-comparisons-with-classical-mlp-and-kan-models)
-- [Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions](#day-18-oikan-tesing-approximation-ability-on-set-of-30-bivariate-functions)
-- [Day 19: OIKAN practical use cases open-source contribution challenge + implemented "Featured Projects" sections on the OIKAN Docs Page](#day-19-oikan-practical-use-cases-open-source-contribution-challenge--implemented-featured-projects-sections-on-the-oikan-docs-page)
-- [Day 20: Contribution of Adaptive Basis Layer Problem to the DeepML Platform](#day-20-contribution-of-adaptive-basis-layer-problem-to-the-deepml-platform)
-- [Day 21: Contribution of Feature Interaction Layer Problem to the DeepML Platform](#day-21-contribution-of-feature-interaction-layer-problem-to-the-deepml-platform)
-- [Day 22: Contribution of Optimized Loss Function Problem to the DeepML Platform](#day-22-contribution-of-optimized-loss-function-problem-to-the-deepml-platform)
-- [Day 23: Considering further optimization methods for the OIKAN architecture](#day-23-considering-further-optimization-methods-for-the-oikan-architecture)
-- [Day 24: Researching the Micrograd project by Andrej Karpathy](#day-24-researching-the-micrograd-project-by-andrej-karpathy)
-- [Day 25: Implementation of Adam Optimizer (Practice)](#day-25-implementation-of-adam-optimizer-practice)
-- [Day 26: Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-26-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
-- [Day 27: 2.0 Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-27-2.0-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
-- [Day 28: Trying out Cython | experimenting ~ learning](#day-28-trying-out-cython--experimenting--learning)
-- [Day 29: 3.0 Preparing a paper for IEEE Conference on Machine Learning and Applications](#day-29-3.0-preparing-a-paper-for-ieee-conference-on-machine-learning-and-applications)
-- [Day 30: TOP 30 Essential DS/ML functions imlplementation in clear NumPy (Part - 1)](#day-30-top-30-essential-dsml-functions-imlplementation-in-clear-numpy-part---1)
-- [Contributing to the OIKAN Library](#contributing-to-the-oikan-library)
-- [References](#references)
+
 
 ## Day 0: Intro to Kolmogorov Arnold Networks
 
@@ -211,179 +178,7 @@ Today, we'll explore how to implement a Kolmogorov–Arnold-Informed neural netw
 
 **🔗 Source:** [Kolmogorov Arnold Informed neural network: A physics-informed deep learning framework for solving PDEs based on Kolmogorov Arnold Networks](https://arxiv.org/abs/2406.11045v1)
 
-
-## Day 4: Trying KAN for Physics ~ Lagrangian Mechanics
-
-Today, we'll explore how to implement a KAN model in Python for solving physics problems, specifically in the domain of Lagrangian Mechanics.
-
-PyKAN can be used to approximate and simplify a complex physical formula like the Lagrangian Simple Pendulum Formula in physics. The goal is to express it in terms of simpler symbolic functions while preserving its essential behavior.
-
-![Lagrangian Simple Pendulum Formula](https://sun9-3.userapi.com/impg/BtFV5uJ-NuTthvXCYChm8iRswTzUL8T3flJ5Lw/lsD9wyJ2U0k.jpg?size=1740x421&quality=95&sign=6aea2dadf2bd25235fec608fe4ec8382&type=album)
-
-**Practice Link:** *[Trying KAN for Physics: Lab 1 - Lagrangian](https://www.kaggle.com/code/armanzhalgasbayev/trying-kan-for-physics-lab-1-lagrangian/)*
-
-**Results:**
-
-![Lagrangian Approximation vs. Original](https://sun9-13.userapi.com/impg/7y_tVfaW0QBMblaJS6yDNCkuy8tXlJI_bEnWUg/t0c1Thjb8A4.jpg?size=1048x834&quality=95&sign=a39fbc96650faf5983d0613d041b58a7&type=album)
-
-| Metric                | Value     |
-|-----------------------|-----------|
-| Mean Squared Error (MSE) | 1.426959 |
-| Mean Absolute Error (MAE) | 1.041068 |
-| R² Score              | 0.883975  |
-| 👍 Good Fit           | The model performs well but can be improved. |
-
-## Day 5: Get started working on OIKAN (Development of a Python library for KAN combined with MLP)
-
-OIKAN (Optimized Implementation of Kolmogorov-Arnold Networks) is a PyTorch-based library for creating interpretable neural networks. It implements the KAN architecture to provide both accurate predictions and interpretable results.
-
-**🔗 Link:** [OIKAN Github Repository](https://github.com/silvermete0r/oikan)
-
-**🔗 Released OIKAN as a PyPi library:** [oikan 0.0.1.2](https://pypi.org/project/oikan/0.0.1.2/)
-
-**🔗 Comparison PyKAN vs. OIKAN vs. MLPClassifier ~ Classification Battle:** [Kaggle Notebook](notebooks/titanic-pykan-vs-mlp-vs-oikan.ipynb)
-
-## Day 6: Mathematical Foundation and Architecture of OIKAN
-
-### Mathematical Foundation of OIKAN
-
-![Kolmogorov-Arnold Representation Theorem (KART)](img/math_foundation_oikanv_001/kart.png)
-
-![EfficientKAN Feature Transformation](img/math_foundation_oikanv_001/efficientkan_feature_transformation.png)
-
-![Feature Interaction Layer](img/math_foundation_oikanv_001/feature_extraction_layer.png)
-
-![Adaptive Basis Layer](img/math_foundation_oikanv_001/adaptive_basis_layer.png)
-
-![Loss Function with Regularization](img/math_foundation_oikanv_001/loss_function_with_regularization.png)
-
-### OIKAN Model Architecture
-
-![OIKAN Model Architecture](img/math_foundation_oikanv_001/OIKAN%20v0.0.1%20Model%20Architecture.png)
-
-## Day 7: Symbolic Formula Extraction Development for Regression
-
-Today, we'll focus on developing a symbolic formula extraction module for regression problems in OIKAN. The goal is to extract interpretable symbolic formulas from trained OIKAN models to enhance model transparency and understanding.
-
-## Day 8: Symbolic Formula Extraction Development for Classification
-
-Today, we'll focus on developing a symbolic formula extraction module for classification problems in OIKAN. The goal is to extract interpretable symbolic formulas from trained OIKAN models to enhance model transparency and understanding.
-
-## Day 9: Model Interpretability and Visualization in OIKAN: `plot_symbolic_formula()` for regression & classification models
-
-Today, we'll work on enhancing model interpretability and visualization in OIKAN by developing a `plot_symbolic_formula()` function. This function will generate visual representations of the symbolic formulas extracted from trained OIKAN models for regression and classification tasks.
-
-## Day 10: LaTeX Symbolic Formula Extractor Function in OIKAN
-
-Today, we'll develop a LaTeX symbolic formula extractor function in OIKAN. The function will convert the symbolic formulas extracted from trained OIKAN models into LaTeX format for better presentation and readability.
-
-## Day 11: Working on Documentation of the Project
-
-Today, we'll focus on documenting the OIKAN project to provide clear instructions, examples, and explanations for users. The documentation will cover installation, usage, features, and more to help users understand and utilize the OIKAN library effectively.
-
-## Day 12: 3D visualization of Symbolic formulas in OIKAN for function approximation
-
-Today, we'll explore 3D visualization of symbolic formulas in OIKAN for function approximation. The goal is to create interactive visualizations that showcase the symbolic formulas extracted from trained OIKAN models in a 3D space, providing a unique perspective on the model's interpretability and performance.
-
-## Day 13: Trying to optimize high-dimensional data handling with SVD (Singular Value Decomposition) in OIKAN
-
-Today, we'll investigate optimizing high-dimensional data handling in OIKAN using Singular Value Decomposition (SVD). By applying SVD to the input data, we aim to reduce dimensionality, enhance computational efficiency, and improve model performance for large-scale datasets.
-
-## Day 14: Re-Thinking the Architecture of OIKAN
-
-Today, we'll re-think the architecture of OIKAN to enhance its performance, scalability, and interpretability. 
-
-## Day 15: OIKAN Docs Page (Landing Page) Development & Deployment
-
-Today, we'll focus on developing and deploying the OIKAN documentation landing page. The landing page will serve as a central hub for users to access information, tutorials, examples, and resources related to the OIKAN library.
-
-**🔗 Link:** [silvermete0r.github.io/oikan](https://silvermete0r.github.io/oikan)
-
-## Day 16: OIKAN Project Defense Presentation (~ Model Saving function added)
-
-Today, we'll prepare and present a project defense presentation for the OIKAN library. The presentation will cover the motivation, architecture, features, applications, and future directions of OIKAN, highlighting its unique contributions to the field of interpretable neural networks.
-
-## Day 17: OIKAN: Experiments and comparisons with classical MLP and KAN models
-
-**Good news for february 24:** We have published at "Awesome KAN" github repository containing curated list of awesome libraries, projects, tutorials, papers, and other resources related to Kolmogorov-Arnold Network (KAN). That's a great opportunity to share our OIKAN library with the community and get feedback from the experts.
-
-**Link:** [Awesome KAN(Kolmogorov-Arnold Network)](https://github.com/mintisan/awesome-kan) 
-
-Next step is to complete first version of the research paper about OIKAN library and submit it to journals for review, then add official research paper to "Awesome KAN" github repository.
-
-Today, we'll conduct experiments and comparisons of the OIKAN model with classical MLP and KAN models. The goal is to evaluate the performance, interpretability, and efficiency of OIKAN across various datasets and tasks, showcasing its unique advantages and capabilities in classification and regression problems.
-
-## Day 18: OIKAN tesing approximation ability on set of 30 bivariate functions
-
-**Good news for february 25:** Successfully submitted my research project about OIKAN library to the for the first stage of the competition of scientific papers of Astana IT University students.
-
-Function approximation is a key task in machine learning and scientific computing. Today, we'll test the approximation ability of OIKAN on a set of 30 bivariate functions, evaluating its performance in capturing complex patterns and relationships. The results will demonstrate OIKAN's effectiveness in function approximation and its potential for diverse applications.
-
-**🔗 Link:** [OIKAN vs. 30 bivariate functions notebook](notebooks/oikan-2-variate-functions-approximation-30.ipynb)
-
-## Day 19: Added OIKAN practical use cases open-source contribution challenge + implemented "Featured Projects" sections on the OIKAN Docs Page
-
-Today, we'll add practical use cases and open-source contribution challenges for OIKAN to encourage community engagement and collaboration. We'll also implement a "Featured Projects" section on the OIKAN documentation landing page to showcase innovative applications and projects developed using the OIKAN library.
-
-Check out the OIKAN Docs Page for more details: [silvermete0r.github.io/oikan](https://silvermete0r.github.io/oikan)
-
-## Day 20: Contribution of Adaptive Basis Layer Problem to the DeepML Platform
-
-Today, we'll contribute to the Adaptive Basis Layer problem on the DeepML platform, focusing on making each part of the OIKAN architecture understandable and accessible to the community. By sharing our insights and solutions, we aim to enhance the performance and usability of the Adaptive Basis Layer in OIKAN and contribute to the broader field of interpretable neural networks.
-
-**🔗 Link:** [DeepML Platform](https://www.deep-ml.com/)
-
-## Day 21: Contribution of Feature Interaction Layer Problem to the DeepML Platform
-
-Today, we'll contribute to the Feature Interaction Layer problem on the DeepML platform, focusing on optimizing the interaction between features in OIKAN models. By addressing this challenge, we aim to improve the interpretability and performance of OIKAN models and provide valuable insights for the DeepML community.
-
-**🔗 Link:** [DeepML Platform](https://www.deep-ml.com/)
-
-## Day 22: Contribution of Optimized Loss Function Problem to the DeepML Platform
-
-Today, we'll contribute to the Optimized Loss Function problem on the DeepML platform, focusing on enhancing the loss function in OIKAN for improved model training and performance. By developing an optimized loss function, we aim to address key challenges in interpretable neural networks and provide innovative solutions for the DeepML community.
-
-**🔗 Link:** [DeepML Platform](https://www.deep-ml.com/)
-
-## Day 23: Considering further optimization methods for the OIKAN architecture
-
-Today, we'll explore further optimization methods for the OIKAN architecture to enhance its performance, scalability, and interpretability. By investigating advanced techniques and algorithms, we aim to push the boundaries of interpretable neural networks and unlock new possibilities for OIKAN in various applications.
-
-## Day 24: Researching the Micrograd project by Andrej Karpathy
-
-Today, we'll research the Micrograd project by Andrej Karpathy, focusing on its implementation of a minimal autograd engine in Python. By studying the Micrograd codebase and design principles, we aim to gain insights into autograd libraries, neural network architectures, and deep learning frameworks, informing our work on the OIKAN library. 
-
-**🔗 Link:** [Micrograd Github Repository](https://github.com/karpathy/micrograd)
-
-## Day 25: Implementation of Adam Optimizer (Practice)
-
-Today, we'll implement the Adam optimizer from scratch in Python as a practice exercise. By developing the Adam optimizer, we aim to deepen our understanding of optimization algorithms, gradient descent methods, and neural network training processes, enhancing our skills in building efficient and effective machine learning models.
-
-**🔗 Link:** [DeepML Adam Optimizer No. 49](https://www.deep-ml.com/problems/49)
-
-## Day 26: Preparing a paper for IEEE Conference on Machine Learning and Applications
-
-Today, we'll prepare a research paper on the OIKAN library for submission to the IEEE Conference on Machine Learning and Applications. The paper will cover the motivation, architecture, features, applications, and experimental results of OIKAN, highlighting its contributions to interpretable neural networks and machine learning research.
-
-**🔗 Link:** [IEEE Conference on ML: AITU](https://student-conference.astanait.edu.kz/)
-
-## Day 27: 2.0 Preparing a paper for IEEE Conference on Machine Learning and Applications
-
-~ Second day of working on research paper for IEEE.
-
-## Day 28: Trying out Cython | experimenting ~ learning
-
-~ Trying to use Cython for Python code optimization and performance improvement.
-
-## Day 29: 3.0 Preparing a paper for IEEE Conference on Machine Learning and Applications
-
-~ Third day of working on research paper for IEEE.
-
-## Day 30: TOP 30 Essential DS/ML functions imlplementation in clear NumPy (Part - 1)
-
-Today, we'll implement the top 30 essential data science and machine learning functions in clear NumPy code. By developing these functions from scratch, we aim to deepen our understanding of fundamental algorithms, data processing techniques, and mathematical operations used in data science and machine learning applications.
-
-**🔗 Link:** [TOP 30 DS/ML functions in clear Numpy [Part-1]](https://www.kaggle.com/code/armanzhalgasbayev/top-30-ds-ml-functions-in-clear-numpy-part-1) 
+ 
 
 ## Contributing to the OIKAN Library
 
@@ -406,5 +201,3 @@ If you're interested in contributing to the OIKAN library, feel free to check ou
 13. [(Arxiv) MLP-KAN: Unifying Deep Representation and Function Learning](https://arxiv.org/abs/2410.03027v1)
 14. [(Github) An Efficient Implementation of Kolmogorov-Arnold Network](https://github.com/Blealtan/efficient-kan)
 15. [(Arxiv) Kolmogorov-Arnold Networks for Time Series: Bridging Predictive Power and Interpretability](https://arxiv.org/abs/2406.02496)
-
-**Task:** Redesign and re-complete this 30 days OIKAN challenge github repository with more detailed information and examples.
