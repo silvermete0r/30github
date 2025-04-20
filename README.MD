@@ -1,6 +1,9 @@
-![KAN-30-Days-Challenge-Header](img/kan-research-30-days-challenge-header.png)
+<!-- logo in the center -->
+<div align="center">
+<img src="img/oikan_logo.png" alt="OIKAN Logo" width="200"/>
+</div>
 
-# 30 Days of development OIKAN Library
+# 30 Days of development OIKAN (v0.0.3) Library
 
 [![Star](https://img.shields.io/github/stars/silvermete0r/30github.svg?logo=github&style=flat-square)](https://github.com/silvermete0r/30github)&nbsp;
 [![Fork](https://img.shields.io/github/forks/silvermete0r/30github.svg?logo=github&style=flat-square)](https://github.com/silvermete0r/30github)&nbsp;
@@ -8,12 +11,15 @@
 <a href="https://dataflow.kz/"><img src="https://img.shields.io/badge/Powered%20by-Dataflow-line.svg" alt="dataflow" /></a>&nbsp;
 
 * **Programming Languages:** Python; 
-* **Main goal:** Optimize traditional neural networks using the Kolmogorov-Arnold Representation Theorem to achieve more accurate interpretable symbolic representations with better performance.
+* **Main goal:** Applying traditional neural networks in combination with symbolic regression approaches based on Kolmogorov-Arnold representation theorem to obtain more accurate interpretable symbolic representations with better performance.
 
-* **Idea:**
-
+* **Idea:** 
 
 * **Duration:** 30 days (1 month)
+
+* **Deadlines:**
+  * **Final Pre-Defense:** 24 May, 2025
+  * **Final Defense:** 9 - 13 June, 2025
 
 ## Table of Contents
 - [Day 0: Intro to Kolmogorov Arnold Networks](#day-0-intro-to-kolmogorov-arnold-networks)
