@@ -5,7 +5,9 @@
 
 # Awesome OIKAN Projects
 
-*A curated list of awesome projects built with [OIKAN](https://github.com/silvermete0r/oikan), a powerful framework for interpretable machine learning.*
+A curated list of awesome projects built with [OIKAN](https://github.com/silvermete0r/oikan), a powerful framework for interpretable machine learning.
+
+The best projects from this repository will be featured in the [OIKAN's Featured Projects Website](https://silvermete0r.github.io/oikan/featured-projects.html).
 
 **🔗 OIKAN repository:** [silvermete0r/oikan](https://github.com/silvermete0r/oikan)
 
