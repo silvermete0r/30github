@@ -34,6 +34,7 @@ We welcome contributions to this list! If you have an awesome OIKAN project to s
 |--------------|-------------|------|--------|
 | Classification Tutorial using Iris Dataset | A tutorial on classification using the Iris dataset with OIKAN. | [GitHub Jupyter Notebook](https://github.com/silvermete0r/oikan/blob/main/examples/classification_tutorial.py) | @silvermete0r |
 | Drug Classification (AC: 0.97) | A classification model for drug classification using OIKAN. | [Kaggle Notebook](https://www.kaggle.com/code/armanzhalgasbayev/oikan-v0-0-3-drug-classification-ac-0-97) | @silvermete0r |
+| OIKAN ~ Interpretable ML for CMI 2025 - Training | Predicting Body Focused Repetitive Behaviors from a Wrist-Worn Device using OIKAN (Competition: [CMI - Detect Behavior with Sensor Data](https://www.kaggle.com/competitions/cmi-detect-behavior-with-sensor-data)) | [Kaggle Notebook Training](https://www.kaggle.com/code/silvermete0r/oikan-interpretable-ml-for-cmi-2025-training) & [Kaggle Notebook Submission](https://www.kaggle.com/code/armanzhalgasbayev/oikan-cmi-2025-submission) | @silvermete0r |
 
 
 ### Regression
